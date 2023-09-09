@@ -1,0 +1,14 @@
+.header {
+  border: 1px solid red;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding: 16px 16px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header__nav-menu {
+  display: flex;
+  gap: 12px;
+}

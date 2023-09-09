@@ -1,0 +1,15 @@
+.App {
+  background-color: rgba(248, 247, 247, 1);
+}
+
+@media screen and (min-width: 1920px) {
+  .App {
+    zoom: 1.6;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .App {
+    zoom: 1;
+  }
+}
