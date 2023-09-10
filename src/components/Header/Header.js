@@ -1,21 +1,20 @@
 import "./Header.css";
-import logo from "../../image/icon-header.svg";
-import Button from "../buttons/Button";
+// import logo from "../../image/icon-header.svg";
+import Button from "../Button/Button";
 
 function Header() {
   return (
     <div className="header">
-      <img src={logo} alt="Логотип" />
+      <button className="header__button-img">
+        {/* <img src={logo} alt="Логотип" /> */}
+      </button>
+
       <div className="header__nav-menu">
         <Button text={"Открыть счет"} style={"button-secondary"} />
         <Button text={"Регистрация бизнеса"} style={"button-secondary"} />
-        <Button
-          text={"Личный кабинет"}
-          style={"button-secondary"}
-          icon={logo}
-        />
+        <Button text={"Личный кабинет"} style={"button-secondary"} />
       </div>
-      <div className="header__button-menu"></div>
+      <button className="header__button-menu"></button>
     </div>
   );
 }

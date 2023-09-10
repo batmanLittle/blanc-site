@@ -1,0 +1,7 @@
+.hero-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  background-color: white;
+  margin-top: 18px;
+}

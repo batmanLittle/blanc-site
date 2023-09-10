@@ -24,4 +24,24 @@
   .button-iconnone {
     display: none;
   }
+  .header__button-img {
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    background-color: transparent;
+    background-image: url(../../image/icon-header.svg);
+    background-repeat: no-repeat;
+  }
+  .header__button-menu {
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    background-image: url(../../image/icon-header-menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+  }
 }

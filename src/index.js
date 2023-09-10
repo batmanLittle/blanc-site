@@ -5,6 +5,8 @@ import App from "../src/components/App/App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import "./vendor/fonts.css";
+import "./vendor/locomotive-scroll.css";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
