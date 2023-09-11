@@ -4,7 +4,12 @@ import image from "../../image/hero-image.png";
 
 function HeroCard() {
   return (
-    <div data-scroll-section data-scroll-speed="6" data-scroll-delay="0.03">
+    <div
+      className="hero-scroll"
+      data-scroll-section
+      data-scroll-speed="6"
+      data-scroll-delay="0.03"
+    >
       <div className="hero-card">
         <div className="hero-card__info">
           <h1 className="hero-card__title">
@@ -13,8 +18,7 @@ function HeroCard() {
           <p className="hero-card__info-text">Открытие счета — 0 ₽.</p>
           <p className="hero-card__info-text"> Обслуживание — от 0 ₽.</p>
         </div>
-        <img src={image} />
-        <div className="hero-card__image"></div>
+        <img src={image} className="hero-card__image" />
       </div>
     </div>
   );
