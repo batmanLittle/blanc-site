@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+import Footer from "../Footer/Footer";
 function App() {
   const containerRef = useRef(null);
 
@@ -23,8 +24,8 @@ function App() {
       }
       containerRef={containerRef}
     >
-      <main>
-        <div className="App">
+      <div className="App">
+        <main>
           <Routes>
             <Route
               path="/"
@@ -47,8 +48,9 @@ function App() {
               />
             </Routes>
           </div>
-        </div>
-      </main>
+        </main>
+        <Footer />
+      </div>
     </LocomotiveScrollProvider>
   );
 }
