@@ -1,0 +1,24 @@
+.card-title {
+  padding-top: 24px;
+  padding-left: 24px;
+  width: 100%;
+  padding-bottom: 134px;
+  display: inline-flex;
+  white-space: pre-line;
+}
+.card-title__block {
+  display: inline-flex;
+  margin-top: 52px;
+  border-radius: 20px;
+  width: 100%;
+}
+.card-title__green-color {
+  background-color: rgba(225, 254, 119, 1);
+}
+.card-title__blue-color {
+  background-color: rgba(184, 239, 253, 1);
+}
+
+.card-title__lilac-color {
+  background-color: rgba(213, 205, 255, 1);
+}

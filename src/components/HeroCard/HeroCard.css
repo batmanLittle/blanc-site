@@ -1,26 +1,46 @@
-
-.hero-scroll{
+.hero-scroll {
   display: flex;
   justify-content: center;
+  margin-bottom: 112px;
 }
 .hero-card {
   display: inline-flex;
   justify-content: center;
-  border: 1px solid red;
-  background-color: white;
+  border-radius: 20px;
+  background-color: var(--main-bt-bgcolor);
   margin-top: 18px;
   padding-top: 8px;
   padding-left: 24px;
   padding-right: 8px;
   gap: 125px;
+  position: relative;
 }
-.hero-card__info{
+.hero-card__info {
   margin-top: 16px;
   margin-bottom: 12px;
   display: block;
+  max-width: 370px;
 }
-.hero-card__title{
+.hero-card__title {
   margin-top: 0px;
   margin-bottom: 16px;
   height: 102px;
+}
+.hero-card__info-text {
+  margin-top: 0px;
+  margin-bottom: 177px;
+  color: rgba(34, 34, 34, 0.45);
+}
+
+.hero-card__image {
+  height: 340px;
+}
+
+.hero-card__button {
+  position: absolute;
+
+  display: flex;
+  gap: 8px;
+  bottom: 12px;
+  left: 12px;
 }

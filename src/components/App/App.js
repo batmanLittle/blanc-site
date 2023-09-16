@@ -2,7 +2,7 @@ import "./App.css";
 import React, { useRef } from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "../Header/Header";
-import HeroCard from "../HeroCard/HeroCard";
+import Main from "../Main/Main";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 function App() {
   const containerRef = useRef(null);
@@ -11,7 +11,7 @@ function App() {
     <LocomotiveScrollProvider
       options={{
         smooth: true,
-        lerp: 0.1,
+        // lerp: 1,
         // ... all available Locomotive Scroll instance options
       }}
       watch={
@@ -23,7 +23,7 @@ function App() {
       }
       containerRef={containerRef}
     >
-      <main data-scroll-container ref={containerRef}>
+      <main>
         <div className="App">
           <Routes>
             <Route
@@ -31,19 +31,22 @@ function App() {
               element={
                 <>
                   <Header />
-                  <HeroCard />
                 </>
               }
             />
-            {/* <Route
-          path="/"
-          element={
-            <>
-              <HeroCard />
-            </>
-          }
-        /> */}
           </Routes>
+          <div data-scroll-container ref={containerRef}>
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <>
+                    <Main />
+                  </>
+                }
+              />
+            </Routes>
+          </div>
         </div>
       </main>
     </LocomotiveScrollProvider>

@@ -1,0 +1,13 @@
+.card-client-server {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 152px;
+}
+
+.card-client-server__middle {
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
+}

@@ -1,11 +1,41 @@
 .header {
-  border: 1px solid red;
   padding: 16px 16px;
   margin: auto;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  box-sizing: border-box;
 }
 .header__nav-menu {
   display: flex;
   gap: 12px;
+}
+.button-icon {
+  width: 24px;
+  height: 24px;
+}
+.button-iconnone {
+  display: none;
+}
+.header__button-img {
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  background-color: transparent;
+  background-image: url(../../image/icon-header.svg);
+  background-repeat: no-repeat;
+}
+.header__button-menu {
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  background-image: url(../../image/icon-header-menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 12px;
 }

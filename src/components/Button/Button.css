@@ -12,36 +12,39 @@
     padding-left: 16px;
     padding-right: 16px;
     display: flex;
-    gap: 8px;
     align-items: center;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.9);
+    color: var(--main-bg-color);
+    background-color: var(--main-bt-bgcolor);
+    /* backdrop-filter: blur(57px); */
   }
-  .button-icon {
-    width: 24px;
-    height: 24px;
+  .button-primary {
+    color: var(--main-bt-bgcolor);
+    background-color: var(--main-bt-color);
+    font-family: Aeroport-regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.64px;
+    height: 40px;
+    border: 0px;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
   }
-  .button-iconnone {
-    display: none;
+  .button-secondary__gray {
+    background-color: rgba(248, 247, 247, 1);
   }
-  .header__button-img {
-    border: none;
+  .button-secondary-icon {
+    border: 0px;
+    background-color: inherit;
     width: 40px;
     height: 40px;
-    padding: 0px;
-    background-color: transparent;
-    background-image: url(../../image/icon-header.svg);
-    background-repeat: no-repeat;
-  }
-  .header__button-menu {
-    border: none;
-    width: 40px;
-    height: 40px;
-    padding: 0px;
-    background-image: url(../../image/icon-header-menu.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 247, 247, 1);
+    padding: 10px;
+    box-sizing: border-box;
     border-radius: 12px;
   }
 }

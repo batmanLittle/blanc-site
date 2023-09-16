@@ -1,0 +1,12 @@
+.title {
+  margin: auto;
+  text-align: center;
+  white-space: pre-line;
+}
+.title-main {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.title-text {
+  margin: 0px;
+}

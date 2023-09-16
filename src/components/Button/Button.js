@@ -6,7 +6,7 @@ const Button = ({ text, style, icon }) => {
       <span>{text}</span>
       <img
         src={icon}
-        className={icon === undefined ? "button-iconnone" : "button-icon"}
+        // className={icon === undefined ? "button-iconnone" : "button-icon"}
       />
     </button>
   );

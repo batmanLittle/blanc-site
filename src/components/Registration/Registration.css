@@ -1,0 +1,83 @@
+.registration {
+  gap: 36px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 79px;
+}
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(74, 74, 74, 1);
+  border-radius: 20px;
+  gap: 70px;
+}
+
+.registration__input-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+  margin-left: 26px;
+  margin-right: 26px;
+  position: relative;
+}
+
+.registration__input {
+  height: 31px;
+  border: 0px;
+  padding: 0px;
+  background-color: inherit;
+  height: 31px;
+  border: 0px;
+  padding: 0px;
+  color: #fff;
+  font-family: Aeroport;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: -1.05px;
+  outline: none;
+  width: 100%;
+}
+.registration__input-placeholder {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Aeroport;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: -1.05px;
+  bottom: 0px;
+  left: 0px;
+}
+.registration__button-block {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.registration__button-text {
+  margin-left: 24px;
+}
+
+.registration__button {
+  background-color: var(--main-bt-bgcolor);
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  color: #000;
+  text-align: center;
+  font-family: Aeroport;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.64px;
+  border: 0px;
+  border-radius: 16px;
+}

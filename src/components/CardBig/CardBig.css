@@ -1,0 +1,33 @@
+.card-big {
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 412px;
+  white-space: pre-line;
+  background-color: var(--main-bt-bgcolor);
+  position: relative;
+}
+.card-big__img {
+  width: 218px;
+  height: 340px;
+
+  margin-top: 8px;
+  margin-right: 8px;
+}
+.card-big__text {
+  margin-top: 24px;
+  margin-left: 24px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-big__button {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+  bottom: 12px;
+  left: 12px;
+  /* border: 1px solid red; */
+}

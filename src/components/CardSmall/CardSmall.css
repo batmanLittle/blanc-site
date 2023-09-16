@@ -1,0 +1,38 @@
+.card-small {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  background-color: var(--main-bt-bgcolor);
+  border-radius: 20px;
+  width: 360px;
+  height: 200px;
+  box-sizing: border-box;
+  white-space: pre-line;
+}
+
+.card-small__image {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  bottom: 16px;
+  right: 16px;
+  /* margin-bottom: 16px; */
+}
+
+.card-small__button {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+
+.card-small__button {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  display: inline-flex;
+}

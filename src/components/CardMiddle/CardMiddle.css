@@ -1,0 +1,22 @@
+.card-middle {
+  padding-top: 24px;
+  padding-left: 24px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 360px;
+  height: 412px;
+  position: relative;
+  background-color: var(--main-bt-bgcolor);
+  border-radius: 20px;
+  box-sizing: border-box;
+  white-space: pre-line;
+}
+
+.card-middle__image {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  right: 24px;
+  bottom: 24px;
+}
