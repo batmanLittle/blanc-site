@@ -1,5 +1,6 @@
 .card-tariff {
   width: 100%;
+  margin-top: 46px;
 }
 .card-tariff__section {
   width: 100%;
@@ -28,28 +29,31 @@
   width: 100%;
   border-radius: 20px;
   background-color: var(--main-bt-bgcolor);
+  position: relative;
 }
 .card-tariff__title-text {
   margin: 0px;
 }
 .card-tariff__button {
-  margin-left: 12px;
-  margin-bottom: 12px;
-  margin-top: 75px;
+  left: 12px;
+  bottom: 12px;
+  position: absolute;
   box-sizing: border-box;
 }
 .card-tariff__button-grey {
   background-color: rgba(248, 247, 247, 1);
 }
 .card-tariff__text {
-  padding-left: 20px;
+  padding-left: 12px;
   margin-top: 24px;
   margin-left: 24px;
+  margin-bottom: 125px;
+  padding-right: 24px;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  white-space: pre-line;
-  list-style-type: "—  ";
+
+  list-style-type: "-  ";
 }
 .card-tariff__comparison {
   box-sizing: border-box;
@@ -57,7 +61,7 @@
   width: 100%;
   background-color: var(--main-bt-bgcolor);
   border-radius: 20px;
-  padding: 18px 18px 18px 25px;
+  padding: 16px 16px 16px 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,4 +83,19 @@
   background-color: rgba(248, 247, 247, 1);
   border: 0px;
   padding: 0px;
+  background-image: url(../../image/icon-button.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+  .card-tariff {
+    margin-top: 33px;
+  }
+  .card-tariff__section {
+    flex-direction: column;
+  }
+  .card-tariff__text {
+    margin-bottom: 95px;
+  }
 }

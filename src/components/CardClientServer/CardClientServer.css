@@ -4,10 +4,21 @@
   flex-direction: column;
   gap: 12px;
   margin-bottom: 152px;
+  margin-top: 52px;
 }
 
 .card-client-server__middle {
   display: flex;
   justify-content: space-between;
-  gap: 13px;
+  gap: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .card-client-server__middle {
+    flex-direction: column;
+  }
+  .card-client-server {
+    margin-bottom: 110px;
+    margin-top: 36px;
+  }
 }

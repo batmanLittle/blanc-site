@@ -1,23 +1,13 @@
 .header {
-  padding: 16px 16px;
+  padding: 16px 16px 0px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  position: fixed;
-  z-index: 5;
-  box-sizing: border-box;
 }
 .header__nav-menu {
   display: flex;
   gap: 12px;
-}
-.button-icon {
-  width: 24px;
-  height: 24px;
-}
-.button-iconnone {
-  display: none;
 }
 .header__button-img {
   border: none;
@@ -38,4 +28,28 @@
   background-repeat: no-repeat;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 12px;
+}
+
+@media screen and (max-width: 760px) {
+  .header {
+    padding: 16px 14px 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 12px 32px 0px;
+  }
+  .header__nav-menu {
+    margin-left: 163px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .header {
+    padding: 12px 12px 0px;
+  }
+  .header__nav-menu {
+    margin-left: 110px;
+  }
 }

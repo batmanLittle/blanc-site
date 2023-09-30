@@ -1,50 +1,52 @@
-@media screen and (min-width: 1023px) {
-  .button-secondary {
-    font-family: Aeroport-regular;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: -0.64px;
-    height: 40px;
-    border: 0px;
-    border-radius: 12px;
-    padding-left: 16px;
-    padding-right: 16px;
-    display: flex;
-    align-items: center;
-    color: var(--main-bg-color);
-    background-color: var(--main-bt-bgcolor);
-    /* backdrop-filter: blur(57px); */
-  }
-  .button-primary {
-    color: var(--main-bt-bgcolor);
-    background-color: var(--main-bt-color);
-    font-family: Aeroport-regular;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: -0.64px;
-    height: 40px;
-    border: 0px;
-    border-radius: 12px;
-    padding-left: 16px;
-    padding-right: 16px;
-    display: flex;
-    align-items: center;
-  }
-  .button-secondary__gray {
-    background-color: rgba(248, 247, 247, 1);
-  }
-  .button-secondary-icon {
-    border: 0px;
-    background-color: inherit;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(248, 247, 247, 1);
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 12px;
+.button-secondary {
+  font-family: Aeroport-regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.64px;
+  height: 40px;
+  border: 0px;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  align-items: center;
+  color: var(--main-bg-color);
+  background-color: var(--main-bt-bgcolor);
+}
+.button-primary {
+  color: var(--main-bt-bgcolor);
+  background-color: var(--main-bt-color);
+  font-family: Aeroport-regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.64px;
+  height: 40px;
+  border: 0px;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  align-items: center;
+}
+.button-secondary__gray {
+  background-color: rgba(248, 247, 247, 1);
+}
+.button-secondary-icon {
+  border: 0px;
+  background-color: inherit;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(248, 247, 247, 1);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+@media screen and (max-width: 600px) {
+  .button-hide {
+    display: none;
   }
 }

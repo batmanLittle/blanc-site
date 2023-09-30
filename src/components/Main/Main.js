@@ -17,14 +17,20 @@ export default function Main() {
         }
         title={"Бланк — это банк  \n  для предпринимателей"}
       />
+
       <CardTariff />
+
       <CardFlow />
+
       <CardClientServer />
+
       <Title
         text={"Чтобы твой бизнес работал на максимум"}
         title={"Так же у нас есть\n все необходимые продукты"}
       />
+
       <CardProduct />
+
       <Registration />
     </main>
   );

@@ -1,46 +1,67 @@
-.hero-scroll {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 112px;
-}
 .hero-card {
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   border-radius: 20px;
   background-color: var(--main-bt-bgcolor);
-  margin-top: 18px;
   padding-top: 8px;
   padding-left: 24px;
   padding-right: 8px;
-  gap: 125px;
+  width: 100%;
   position: relative;
+  gap: 112px;
+  margin-bottom: 112px;
 }
 .hero-card__info {
   margin-top: 16px;
-  margin-bottom: 12px;
   display: block;
   max-width: 370px;
+  white-space: pre-line;
 }
 .hero-card__title {
   margin-top: 0px;
   margin-bottom: 16px;
-  height: 102px;
 }
 .hero-card__info-text {
-  margin-top: 0px;
-  margin-bottom: 177px;
+  margin: 0px;
   color: rgba(34, 34, 34, 0.45);
 }
 
 .hero-card__image {
   height: 340px;
+  margin-bottom: 65px;
 }
 
 .hero-card__button {
   position: absolute;
-
   display: flex;
   gap: 8px;
   bottom: 12px;
   left: 12px;
+}
+@media screen and (max-width: 600px) {
+  .hero-card {
+    padding-top: 8px;
+    padding-left: 24px;
+    padding-right: 8px;
+    padding-bottom: 76px;
+    max-width: 416px;
+    flex-direction: column-reverse;
+    gap: 74px;
+    margin-bottom: 118px;
+  }
+  .hero-card__image {
+    height: 262px;
+    width: 172px;
+    margin-bottom: 0px;
+    margin-left: 212px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hero-card {
+    max-width: 351px;
+  }
+  .hero-card__image {
+    margin-left: 146px;
+  }
 }

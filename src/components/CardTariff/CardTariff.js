@@ -4,6 +4,7 @@ import Button from "../Button/Button";
 import iconJunior from "../../image/icon-junior.svg";
 import iconMiddle from "../../image/icon-middle.svg";
 import iconPro from "../../image/icon-pro.svg";
+import iconButton from "../../image/icon-button.svg";
 
 export default function CardTariff() {
   return (
@@ -19,10 +20,7 @@ export default function CardTariff() {
             <img className="card-tariff__img" src={iconJunior} />
           </div>
           <ul className="card-tariff__text">
-            <li className="textMD">
-              250 000 ₽ вывод <br />
-              на счета физлиц
-            </li>
+            <li className="textMD">250 000 ₽ вывод на счета физлиц</li>
             <li className="textMD">5 платёжек в месяц бесплатно</li>
             <li className="textMD">Снятие в любом банкомате — 3%</li>
           </ul>
@@ -39,10 +37,7 @@ export default function CardTariff() {
             <img className="card-tariff__img" src={iconMiddle} />
           </div>
           <ul className="card-tariff__text">
-            <li className="textMD">
-              700 000 ₽ вывод <br />
-              на счета физлиц
-            </li>
+            <li className="textMD">700 000 ₽ вывод на счета физлиц</li>
             <li className="textMD">20 платёжек в месяц бесплатно</li>
             <li className="textMD">50 000 ₽ в любом банкомате без %</li>
           </ul>
@@ -59,10 +54,7 @@ export default function CardTariff() {
             <img className="card-tariff__img" src={iconPro} />
           </div>
           <ul className="card-tariff__text">
-            <li className="textMD">
-              1 500 000 ₽ вывод <br />
-              на счета физлиц
-            </li>
+            <li className="textMD">1 500 000 ₽ вывод на счета физлиц</li>
             <li className="textMD">∞ платёжек в месяц бесплатно</li>
             <li className="textMD">300 000 ₽ в любом банкомате без %</li>
           </ul>

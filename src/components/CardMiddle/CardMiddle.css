@@ -4,7 +4,7 @@
   display: inline-flex;
   flex-direction: column;
   gap: 12px;
-  width: 360px;
+  width: 100%;
   height: 412px;
   position: relative;
   background-color: var(--main-bt-bgcolor);
@@ -19,4 +19,16 @@
   height: 140px;
   right: 24px;
   bottom: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .card-middle {
+    height: 310px;
+  }
+  .card-middle__image {
+    width: 90px;
+    height: 90px;
+    right: 20px;
+    bottom: 20px;
+  }
 }

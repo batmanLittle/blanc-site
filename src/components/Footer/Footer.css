@@ -1,53 +1,72 @@
-.footer{
-    display: flex;
-    flex-direction: column;
-    gap: 17px;
-    margin: auto;
-    width: 732px;
-    
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin: auto;
+  max-width: 732px;
 }
-.footer__section{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--main-bt-bgcolor);
-    border-radius: 20px;
-}
-
-.footer__logo{
-    margin-top: 27px;
-    margin-left: 25px;
-    margin-bottom: 20px;
-    width: 84px;
-    height: 22px;
-   
-}
-.footer__info{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 24px;
-    margin-right: 77px;
-    row-gap: 12px;
-    margin-bottom: 68px;
+.footer__section {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-bt-bgcolor);
+  border-radius: 20px;
 }
 
-.footer__link{
-    text-decoration: none;
+.footer__logo {
+  margin-top: 27px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  width: 84px;
+  height: 22px;
+}
+.footer__info {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(188px, 1fr));
+  margin-left: 24px;
+  margin-right: 77px;
+  gap: 12px;
+  margin-bottom: 68px;
 }
 
-.footer__contacts{
-    width: 477px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-left: 12px;
-    margin-bottom: 12px;
+.footer__link {
+  text-decoration: none;
 }
 
-.footer__license{
+.footer__contacts {
+  max-width: 477px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+}
+
+.footer__license {
+  background-color: var(--main-bt-bgcolor);
+  border-radius: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+  .footer__license {
     background-color: var(--main-bt-bgcolor);
     border-radius: 20px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 28px;
-    padding-bottom: 28px;
+    padding-top: 24px;
+    padding-bottom: 18px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .footer {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }

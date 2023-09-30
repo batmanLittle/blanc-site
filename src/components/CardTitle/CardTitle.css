@@ -1,6 +1,7 @@
 .card-title {
   padding-top: 24px;
   padding-left: 24px;
+  padding-right: 15px;
   width: 100%;
   padding-bottom: 134px;
   display: inline-flex;
@@ -8,7 +9,7 @@
 }
 .card-title__block {
   display: inline-flex;
-  margin-top: 52px;
+
   border-radius: 20px;
   width: 100%;
 }
@@ -21,4 +22,14 @@
 
 .card-title__lilac-color {
   background-color: rgba(213, 205, 255, 1);
+}
+
+@media screen and (max-width: 600px) {
+  .card-title {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 15px;
+    width: 100%;
+    padding-bottom: 71px;
+  }
 }

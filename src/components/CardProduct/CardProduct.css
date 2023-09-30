@@ -8,7 +8,13 @@
 }
 
 .card-product__small {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 12px;
+}
+@media screen and (max-width: 600px) {
+  .card-product__small {
+    display: flex;
+    flex-direction: column;
+  }
 }
