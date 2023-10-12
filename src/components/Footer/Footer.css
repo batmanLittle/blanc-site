@@ -4,6 +4,7 @@
   gap: 17px;
   margin: auto;
   max-width: 732px;
+  width: 100%;
 }
 .footer__section {
   display: flex;
@@ -48,6 +49,13 @@
   padding-right: 24px;
   padding-top: 28px;
   padding-bottom: 28px;
+}
+
+@media screen and (max-width: 760px) {
+  .footer {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
 }
 
 @media screen and (max-width: 600px) {

@@ -1,4 +1,5 @@
 import "./CardTariff.css";
+import React from "react";
 import CardTitle from "../CardTitle/CardTitle";
 import Button from "../Button/Button";
 import iconJunior from "../../image/icon-junior.svg";
@@ -7,9 +8,12 @@ import iconPro from "../../image/icon-pro.svg";
 import iconButton from "../../image/icon-button.svg";
 
 export default function CardTariff() {
+  const refB = React.useRef();
+
   return (
     <section className="card-tariff">
       <CardTitle
+        ref={refB}
         style={"card-title__green-color"}
         title={"У нас самые простые \n и прозрачные тарифы"}
       />
