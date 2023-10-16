@@ -1,11 +1,15 @@
 import "./CardTitle.css";
 
-export default function CardTitle({ style, title }) {
+import { forwardRef } from "react";
+
+const CardTitle = forwardRef(({ style, title }, ref) => {
   return (
-    <section className={"card-title__block" + " " + style}>
+    <section ref={ref} className={"card-title__block" + " " + style}>
       <div className="card-title">
         <h2>{title}</h2>
       </div>
     </section>
   );
-}
+});
+
+export default CardTitle;

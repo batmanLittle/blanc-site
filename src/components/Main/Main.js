@@ -7,7 +7,9 @@ import CardClientServer from "../CardClientServer/CardClientServer";
 import CardProduct from "../CardProduct/CardProduct";
 import Registration from "../Registration/Registration";
 
-export default function Main() {
+import { forwardRef } from "react";
+
+const Main = forwardRef((props, refGreenBlock) => {
   return (
     <main className="main">
       <HeroCard />
@@ -18,7 +20,7 @@ export default function Main() {
         title={"Бланк — это банк  \n  для предпринимателей"}
       />
 
-      <CardTariff />
+      <CardTariff ref={refGreenBlock} />
 
       <CardFlow />
 
@@ -34,4 +36,6 @@ export default function Main() {
       <Registration />
     </main>
   );
-}
+});
+
+export default Main;

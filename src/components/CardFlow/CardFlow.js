@@ -5,7 +5,9 @@ import CardBig from "../CardBig/CardBig";
 import Button from "../Button/Button";
 import CardSmall from "../CardSmall/CardSmall";
 
-function CardFlow() {
+import { forwardRef } from "react";
+
+const CardFlow = forwardRef((props, ref) => {
   return (
     <div className="card-flow">
       <CardTitle
@@ -41,6 +43,6 @@ function CardFlow() {
       </div>
     </div>
   );
-}
+});
 
 export default CardFlow;

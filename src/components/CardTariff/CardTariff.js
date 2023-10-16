@@ -5,15 +5,13 @@ import Button from "../Button/Button";
 import iconJunior from "../../image/icon-junior.svg";
 import iconMiddle from "../../image/icon-middle.svg";
 import iconPro from "../../image/icon-pro.svg";
-import iconButton from "../../image/icon-button.svg";
+import { forwardRef } from "react";
 
-export default function CardTariff() {
-  const refB = React.useRef();
-
+const CardTariff = forwardRef((props, refGreenBlock) => {
   return (
     <section className="card-tariff">
       <CardTitle
-        ref={refB}
+        ref={refGreenBlock}
         style={"card-title__green-color"}
         title={"У нас самые простые \n и прозрачные тарифы"}
       />
@@ -76,4 +74,5 @@ export default function CardTariff() {
       </div>
     </section>
   );
-}
+});
+export default CardTariff;
