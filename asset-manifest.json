@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/blanc-site/static/css/main.69940514.css",
+    "main.js": "/blanc-site/static/js/main.f3e81a7f.js",
+    "static/js/787.5d2a061d.chunk.js": "/blanc-site/static/js/787.5d2a061d.chunk.js",
+    "static/media/Aeroport-regular.otf": "/blanc-site/static/media/Aeroport-regular.2e984349412564ebb0dc.otf",
+    "static/media/icon-flow.svg": "/blanc-site/static/media/icon-flow.a977e612327e4ec562f238231453aa7a.svg",
+    "static/media/hero-image.png": "/blanc-site/static/media/hero-image.04efa70fcda23d3978e3.png",
+    "static/media/Aeroport-regular.woff": "/blanc-site/static/media/Aeroport-regular.9dece734419cc44156f6.woff",
+    "static/media/logo.svg": "/blanc-site/static/media/logo.ad85a1607b3e5b60ef0016b7306e6597.svg",
+    "static/media/VK.svg": "/blanc-site/static/media/VK.5f992912da9ae0dc4c24f93be71dff2c.svg",
+    "static/media/icon-clientServer.svg": "/blanc-site/static/media/icon-clientServer.e8bff0edb7c58c41ffbce540e6af328e.svg",
+    "static/media/icon-clientServer2.svg": "/blanc-site/static/media/icon-clientServer2.2cd82b4e2d0f5a7342cc6ba562054eb5.svg",
+    "index.html": "/blanc-site/index.html",
+    "static/media/icon-header.svg": "/blanc-site/static/media/icon-header.39524bdbcfecdd47f52b.svg",
+    "static/media/TG.svg": "/blanc-site/static/media/TG.de4364e34704295408e8f2be0b38e447.svg",
+    "static/media/icon-pro.svg": "/blanc-site/static/media/icon-pro.e033738fde6b871ea781b62ce811decd.svg",
+    "static/media/icon-junior.svg": "/blanc-site/static/media/icon-junior.7784156949c1037b8d3e9456101f2f09.svg",
+    "static/media/icon-middle.svg": "/blanc-site/static/media/icon-middle.50789321fdfa27c1b312f940405bbdfa.svg",
+    "static/media/icon-button.svg": "/blanc-site/static/media/icon-button.564625b2b3b08b56a1e978cfbdfa38d7.svg",
+    "static/media/icon-header-menu.svg": "/blanc-site/static/media/icon-header-menu.b389cd22f19afdafa556.svg",
+    "static/media/icon-small.svg": "/blanc-site/static/media/icon-small.2c40a60422c9f41e6233cdcdf28e751e.svg",
+    "main.69940514.css.map": "/blanc-site/static/css/main.69940514.css.map",
+    "main.f3e81a7f.js.map": "/blanc-site/static/js/main.f3e81a7f.js.map",
+    "787.5d2a061d.chunk.js.map": "/blanc-site/static/js/787.5d2a061d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69940514.css",
+    "static/js/main.f3e81a7f.js"
+  ]
+}
