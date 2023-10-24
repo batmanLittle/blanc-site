@@ -7,10 +7,13 @@ import CardMiddle from "../CardMiddle/CardMiddle";
 import iconСlient from "../../image/icon-clientServer.svg";
 import iconСlient2 from "../../image/icon-clientServer2.svg";
 
-export default function CardClientServer() {
+import { forwardRef } from "react";
+
+const CardClientServer = forwardRef((props, refLilacBlock) => {
   return (
     <section className="card-client-server">
       <CardTitle
+        ref={refLilacBlock}
         style={"card-title__lilac-color"}
         title={"Ориентированы\n на клиентский сервис"}
       />
@@ -43,4 +46,6 @@ export default function CardClientServer() {
       </div>
     </section>
   );
-}
+});
+
+export default CardClientServer;

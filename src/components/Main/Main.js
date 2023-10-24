@@ -6,10 +6,49 @@ import CardFlow from "../CardFlow/CardFlow";
 import CardClientServer from "../CardClientServer/CardClientServer";
 import CardProduct from "../CardProduct/CardProduct";
 import Registration from "../Registration/Registration";
-
+import React from "react";
 import { forwardRef } from "react";
 
-const Main = forwardRef((props, refGreenBlock) => {
+const Main = forwardRef((props, refVanishBlock) => {
+  const refGreenBlock = React.useRef();
+  const refBlueBlock = React.useRef();
+  const refLilacBlock = React.useRef();
+
+  // const mergeRefs = (...refs) => {
+  //   return (element) => {
+  //     for (const ref of refs) {
+  //       ref.current = element;
+  //     }
+  //   };
+  // };
+
+  React.useEffect(() => {
+    window.addEventListener("scroll", function hideScrollBlock() {
+      const feik = refVanishBlock.current.getBoundingClientRect().top;
+      const blockGreen = refGreenBlock.current.getBoundingClientRect().top;
+      const blockBlue = refBlueBlock.current.getBoundingClientRect().top;
+      const blockLilac = refLilacBlock.current.getBoundingClientRect().top;
+      if (feik >= blockGreen) {
+        props.setScrollGreen(true);
+      } else {
+        props.setScrollGreen(false);
+      }
+      // console.log(refBlueBlock);
+      // console.log(refGreenBlock);
+      if (feik >= blockBlue) {
+        props.setScrollBlue(true);
+      } else {
+        props.setScrollBlue(false);
+      }
+      // console.log(blockLilac);
+      if (feik >= blockLilac) {
+        props.setScrollLilac(true);
+      } else {
+        props.setScrollLilac(false);
+      }
+    });
+  });
+
   return (
     <main className="main">
       <HeroCard />
@@ -22,9 +61,9 @@ const Main = forwardRef((props, refGreenBlock) => {
 
       <CardTariff ref={refGreenBlock} />
 
-      <CardFlow />
+      <CardFlow ref={refBlueBlock} />
 
-      <CardClientServer />
+      <CardClientServer ref={refLilacBlock} />
 
       <Title
         text={"Чтобы твой бизнес работал на максимум"}

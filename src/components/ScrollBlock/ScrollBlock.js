@@ -13,15 +13,29 @@ const ScrollBlock = forwardRef((props, refVanishBlock) => {
 
   return (
     <section className="scroll-block" ref={refVanishBlock}>
-      <div
-        className={
-          props.scrollA == true
-            ? "scroll-block__none"
-            : "scroll-block__light-green"
-        }
-      ></div>
-      <div className={"scroll-block__blue"}></div>
-      <div className={"scroll-block__lilac"}></div>
+      <div className="scroll-section">
+        <div
+          className={
+            props.scrollGreen === true
+              ? "scroll-block__none"
+              : "scroll-block__light-green"
+          }
+        ></div>
+        <div
+          className={
+            props.scrollBlue === true
+              ? "scroll-block__none"
+              : "scroll-block__blue"
+          }
+        ></div>
+        <div
+          className={
+            props.scrollLilac === true
+              ? "scroll-block__none"
+              : "scroll-block__lilac"
+          }
+        ></div>
+      </div>
     </section>
   );
 });

@@ -8,35 +8,31 @@ import ScrollBlock from "../ScrollBlock/ScrollBlock";
 import Footer from "../Footer/Footer";
 function App() {
   const refVanishBlock = React.useRef();
-  const refGreenBlock = React.useRef();
+  // const refGreenBlock = React.useRef();
   // const refBlueBlock = React.useRef();
 
-  const [scrollA, setScrollA] = React.useState(false);
-
-  React.useEffect(() => {
-    window.addEventListener("scroll", function eee() {
-      const nefeik = refVanishBlock.current.getBoundingClientRect().top;
-      const rect = refGreenBlock.current.getBoundingClientRect().top;
-      // const blockBlue = refBlueBlock.current.getBoundingClientRect().top;
-
-      if (nefeik >= rect) {
-        setScrollA(true);
-      } else {
-        setScrollA(false);
-      }
-
-      // console.log(blockBlue + "кард-титл");
-    });
-  }, []);
+  const [scrollGreen, setScrollGreen] = React.useState(false);
+  const [scrollBlue, setScrollBlue] = React.useState(false);
+  const [scrollLilac, setScrollLilac] = React.useState(false);
 
   return (
     <div className="App">
       <Header />
 
-      <Main ref={refGreenBlock} />
+      <Main
+        ref={refVanishBlock}
+        setScrollGreen={setScrollGreen}
+        setScrollBlue={setScrollBlue}
+        setScrollLilac={setScrollLilac}
+      />
 
       <Footer />
-      <ScrollBlock scrollA={scrollA} ref={refVanishBlock} />
+      <ScrollBlock
+        scrollGreen={scrollGreen}
+        ref={refVanishBlock}
+        scrollBlue={scrollBlue}
+        scrollLilac={scrollLilac}
+      />
     </div>
   );
 }

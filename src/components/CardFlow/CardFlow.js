@@ -7,10 +7,11 @@ import CardSmall from "../CardSmall/CardSmall";
 
 import { forwardRef } from "react";
 
-const CardFlow = forwardRef((props, ref) => {
+const CardFlow = forwardRef((props, refBlueBlock) => {
   return (
     <div className="card-flow">
       <CardTitle
+        ref={refBlueBlock}
         style={"card-title__blue-color"}
         title={"Разгрузим предпринимателей \n от рутины"}
       />
