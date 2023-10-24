@@ -40,7 +40,7 @@ h2 {
   letter-spacing: -1.05px;
 }
 h3 {
-  font-family: Aeroport;
+  font-family: Aeroport-regular;
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
@@ -49,7 +49,7 @@ h3 {
   margin: 0px;
 }
 .textMD {
-  font-family: Aeroport;
+  font-family: Aeroport-regular;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -64,7 +64,7 @@ h3 {
 
 .textLG {
   color: #222;
-  font-family: Aeroport;
+  font-family: Aeroport-regular;
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
@@ -73,7 +73,7 @@ h3 {
   margin: 0px;
 }
 .textSM {
-  font-family: Aeroport;
+  font-family: Aeroport-regular;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -95,7 +95,7 @@ h3 {
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-family: Aeroport;
+    font-family: Aeroport-regular;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -103,7 +103,7 @@ h3 {
     letter-spacing: -0.9px;
   }
   .textLG {
-    font-family: Aeroport;
+    font-family: Aeroport-regular;
     font-size: 21px;
     font-style: normal;
     font-weight: 400;
@@ -112,7 +112,7 @@ h3 {
     /* color: rgba(34, 34, 34, 0.5); */
   }
   h2 {
-    font-family: Aeroport;
+    font-family: Aeroport-regular;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;

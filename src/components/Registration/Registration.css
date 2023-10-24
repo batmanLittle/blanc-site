@@ -32,7 +32,7 @@
   border: 0px;
   padding: 0px;
   color: #fff;
-  font-family: Aeroport;
+  font-family: Aeroport-regular;
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
@@ -44,7 +44,7 @@
 .registration__input-placeholder {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
-  font-family: Aeroport;
+  font-family: Aeroport-regular;
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
@@ -72,7 +72,7 @@
   padding-bottom: 28px;
   color: #000;
   text-align: center;
-  font-family: Aeroport;
+  font-family: Aeroport-regular;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
