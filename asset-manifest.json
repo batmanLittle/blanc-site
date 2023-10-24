@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/blanc-site/static/css/main.69940514.css",
+    "main.css": "/blanc-site/static/css/main.8c5a8061.css",
     "main.js": "/blanc-site/static/js/main.f3e81a7f.js",
     "static/js/787.5d2a061d.chunk.js": "/blanc-site/static/js/787.5d2a061d.chunk.js",
     "static/media/Aeroport-regular.otf": "/blanc-site/static/media/Aeroport-regular.2e984349412564ebb0dc.otf",
@@ -20,12 +20,12 @@
     "static/media/icon-button.svg": "/blanc-site/static/media/icon-button.564625b2b3b08b56a1e978cfbdfa38d7.svg",
     "static/media/icon-header-menu.svg": "/blanc-site/static/media/icon-header-menu.b389cd22f19afdafa556.svg",
     "static/media/icon-small.svg": "/blanc-site/static/media/icon-small.2c40a60422c9f41e6233cdcdf28e751e.svg",
-    "main.69940514.css.map": "/blanc-site/static/css/main.69940514.css.map",
+    "main.8c5a8061.css.map": "/blanc-site/static/css/main.8c5a8061.css.map",
     "main.f3e81a7f.js.map": "/blanc-site/static/js/main.f3e81a7f.js.map",
     "787.5d2a061d.chunk.js.map": "/blanc-site/static/js/787.5d2a061d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69940514.css",
+    "static/css/main.8c5a8061.css",
     "static/js/main.f3e81a7f.js"
   ]
 }
